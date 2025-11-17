@@ -18,7 +18,7 @@ public class ReportEx2 {
 		driver.get("http://automationbykrishna.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-		ExtentSparkReporter reporter = new ExtentSparkReporter("./Reports/report2.html");
+		ExtentSparkReporter reporter = new ExtentSparkReporter("./Reports/report11.html");
 		reporter.config().setReportName("Automation test report");
 		reporter.config().setDocumentTitle("Test Execution Report");
 		ExtentReports report = new ExtentReports();

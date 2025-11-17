@@ -5,12 +5,13 @@
     <classes>
       <class name="testNg.TestNgEx3"/>
       	<class name="testNg.TestNgEx2"/>
+      	<class name="extentReport.ReportEx2"/>
     </classes>
   </test> <!-- Test -->
-    <test thread-count="5" name="Smoke">
+    <!-- <test thread-count="5" name="Smoke">
     <classes>
       <class name="testNg.TestNgEx3"/>
       	<class name="testNg.TestNgEx2"/>
     </classes>
-  </test> <!-- Test -->
+  </test>--> <!-- Test -->
 </suite> <!-- Suite -->
