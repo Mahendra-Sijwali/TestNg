@@ -26,6 +26,12 @@
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+	<dependency>
+	    <groupId>org.projectlombok</groupId>
+	    <artifactId>lombok</artifactId>
+	    <version>1.18.30</version>
+	</dependency>
 	<dependency>
 	    <groupId>io.github.bonigarcia</groupId>
 	    <artifactId>webdrivermanager</artifactId>
@@ -109,7 +115,7 @@
 				<version>3.3.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFiles>./test-output/testng-failed.xml</suiteXmlFiles>
+						<suiteXmlFiles>./testng.xml</suiteXmlFiles>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
