@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -13,7 +14,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ReportEx2 {
-	public static void main(String[] args) {
+	@Test
+	public void report() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://automationbykrishna.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
